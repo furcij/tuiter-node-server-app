@@ -5,6 +5,8 @@ const tuitsSchema = mongoose.Schema({
     liked: Boolean,
     dislikes: Number,
     disliked: Boolean,
+    replies: Number,
+    retuits: Number,
     image: String,
     handle: String, 
     userName: String,
